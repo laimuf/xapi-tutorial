@@ -1,0 +1,13 @@
+[project]
+name = "xapi-mock-server"
+version = "0.1.0"
+description = "Minimal FastAPI server mocking xAPI payloads"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+]
+
+[tool.uv]
+venv = ".venv"
